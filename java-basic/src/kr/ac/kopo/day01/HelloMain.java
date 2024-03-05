@@ -1,6 +1,17 @@
 package kr.ac.kopo.day01;
 
+/**
+ * print() println() printf()ì˜ ì°¨ì´ì 
+ * 
+ * @author Jinhwan
+ * @version 0.1
+ */
+
 public class HelloMain {
+	/**
+	 * 
+	 * @param args í…ŒìŠ¤íŠ¸
+	 */
 	public static void main(String[] args) {
 		System.out.print("Hello ");
 		System.out.print("World!");
@@ -8,8 +19,8 @@ public class HelloMain {
 		
 		System.out.println("Hello World!");
 		
-		System.out.printf("[%4d] %c %d = %d\n",3,'+',4,3+4); // ¿À¸¥ÂÊ Á¤·Ä
-		System.out.printf("[%-4d] %c %d = %d\n",3,'+',4,3+4); // ¿ŞÂÊ Á¤·Ä
-		System.out.printf("[%04d] %c %d = %d\n",3,'+',4,3+4); // 0À¸·Î ºó °ø°£ Ã¤¿ì±â
+		System.out.printf("[%4d] %c %d = %d\n",3,'+',4,3+4); // ì˜¤ë¥¸ìª½ ì •ë ¬
+		System.out.printf("[%-4d] %c %d = %d\n",3,'+',4,3+4); // ì™¼ìª½ ì •ë ¬
+		System.out.printf("[%04d] %c %d = %d\n",3,'+',4,3+4); // 0ìœ¼ë¡œ ë¹ˆ ê³µê°„ ì±„ìš°ê¸°
 	}
 }
