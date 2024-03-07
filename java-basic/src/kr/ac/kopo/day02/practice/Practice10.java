@@ -1,4 +1,4 @@
-package kr.ac.kopo.day02;
+package kr.ac.kopo.day02.practice;
 
 import java.util.Scanner;
 
@@ -19,17 +19,17 @@ public class Practice10 {
 		sc.nextLine();
 
 		boolean result;
-		if (firstInt >= secondInt && firstInt >= thirdInt) {
+		if (firstInt >= secondInt && firstInt >= thirdInt) { // 첫번째 정수가 가장 크다면
 			System.out.print(firstInt + " ");
-			result = secondInt >= thirdInt;
+			result = secondInt >= thirdInt; // 두번째 정수와 세번째 정수 크기 비교
 			System.out.print(result ? secondInt + " " + thirdInt : thirdInt + " " + secondInt);
-		} else if (secondInt >= firstInt && secondInt >= thirdInt) {
+		} else if (secondInt >= firstInt && secondInt >= thirdInt) { // 두번째 정수가 가장 크다면
 			System.out.print(secondInt + " ");
-			result = firstInt >= thirdInt;
+			result = firstInt >= thirdInt; // 첫번째 정수와 세번째 정수 크기 비교
 			System.out.print(result ? firstInt + " " + thirdInt : thirdInt + " " + firstInt);
-		} else {
+		} else { // 세번째 정수가 가장 크다면
 			System.out.print(thirdInt + " ");
-			result = firstInt >= secondInt;
+			result = firstInt >= secondInt; // 첫번째 정수와 두번째 정수 크기 비교
 			System.out.print(result ? firstInt + " " + secondInt : secondInt + " " + firstInt);
 		}
 //		
