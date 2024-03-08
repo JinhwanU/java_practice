@@ -6,8 +6,8 @@ public class Practice06 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		for (int i = 1; i <= 5; i++) {
-			System.out.println(i + "s' 성적 : ");
-			int score = sc.nextInt();
+			System.out.println(i + "'s 성적 : ");
+			int score = Integer.parseInt(sc.nextLine());
 			char grade = ' ';
 
 			if (score >= 90)
@@ -21,7 +21,7 @@ public class Practice06 {
 			else
 				grade = 'F';
 
-			if (score > 100)
+			if (score > 100 || score < 0)
 				System.out.println("잘못입력하셨습니다");
 			else
 				System.out.printf("%d점의 학점은 %c입니다\n", score, grade);
