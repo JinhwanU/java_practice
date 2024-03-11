@@ -27,3 +27,20 @@ public class Practice11 {
 		*    
 
 */
+
+//public class Practice11 {
+//	public static void main(String[] args) {
+//		int nstar=1;
+//		
+//		for (int i = 0; i < 9; i++) {
+//			for (int j = 0; j < nstar; j++) {
+//				System.out.print("*");
+//			}
+//			if (i < 4)
+//				nstar++;
+//			else
+//				nstar--;
+//			System.out.println();
+//		}
+//	}
+//}
