@@ -31,7 +31,7 @@ public class Calculator {
 			System.out.println("true\n");
 			return;
 		}
-		for (int i = 2; i < Math.sqrt(x); i++)
+		for (int i = 2; i <= Math.sqrt(x); i++)
 			if (x % i == 0) {
 				System.out.println("false");
 				return;
