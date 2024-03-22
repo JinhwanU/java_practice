@@ -1,7 +1,7 @@
 package kr.ac.kopo.day12.extend;
 
 public class Manager extends Employee {
-	Employee[] empList;
+	private Employee[] empList;
 
 	public Manager() {
 

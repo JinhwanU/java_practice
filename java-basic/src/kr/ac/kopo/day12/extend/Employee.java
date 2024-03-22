@@ -1,10 +1,10 @@
 package kr.ac.kopo.day12.extend;
 
 public class Employee {
-	int no;
-	String name;
-	int salary;
-	String grade;
+	private String name;
+	private int no;
+	private int salary;
+	private String grade;
 
 	public Employee() {
 
